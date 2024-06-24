@@ -1,0 +1,93 @@
+#cake-image {
+  width: 100%;
+  height: 225px;
+}
+#cake-card {
+  width: 21%;
+  margin: 30px;
+  display: inline-flex;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+.cake-font {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+#cake-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#cake-type {
+  font-weight: 500;
+  display: inline;
+  background-color: #80808070;
+  padding: 5px;
+  border: 1px solid #80808070;
+  border-radius: 20px;
+}
+#cake-price-container {
+  margin-top: -15px;
+}
+#star-icon {
+  color: goldenrod;
+}
+#cakePrice {
+  font-weight: 500;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #0c122f;
+}
+#delivery-msg {
+  font-size: 13px;
+  font-weight: 500;
+}
+p span {
+  color: #008539;
+}
+
+/* ul{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+ul li a {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  flex-direction: column;
+  overflow: hidden;
+
+}  */
+/* #card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 100px;
+  margin-right: 500px;
+  
+}
+#card{
+  width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+
+} */
+/* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align cards in the center horizontally 
+}
+
+.mat-card {
+  width: 300px;  Set a fixed width for each card
+  margin: 16px; Add margin around each card 
+} */

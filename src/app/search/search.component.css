@@ -1,0 +1,20 @@
+/* #searchBar {
+  width: 250px;
+  margin-top: 1rem;
+}
+#select-input {
+  height: 4.42rem;
+  width: 15%;
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  border-radius: 50px;
+}
+button {
+  position: absolute;
+  left: 50rem;
+  top: 1.2rem;
+}
+#icon {
+  color: #555;
+} */

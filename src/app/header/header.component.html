@@ -1,0 +1,48 @@
+<!-- <mat-toolbar id="header" color="primary"> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+  <a routerLink="" > <!--matTooltip="Bake My Cake Logo"-->
+    <img class="navbar-brand" src="../../assets/bake my cake.jpeg" width= "40" height="40"/> 
+ </a> 
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+<a  routerLink="/" id="home-icon">
+  <!-- <mat-icon class="icon">home</mat-icon> -->
+  <p class="nav-link active" aria-current="page">Home</p>
+</a>
+<li class="nav-item">
+<a *ngIf="!isCakeCompLoggedIn"
+
+routerLink="/cake-request">
+<!-- <mat-icon class="icon">person</mat-icon> -->
+
+<p class="nav-link">Admin</p>
+
+</a>
+</li>
+
+<li ><app-search
+    id="search"
+    *ngIf="isHomeComponent"
+    (searchText)="onSearchText($event)"
+  >
+</app-search> 
+</li>
+
+<a    *ngIf="isCakeCompLoggedIn"
+      matTooltip="Logout"
+      routerLink="/login"
+      (click)="logout()" >
+      <mat-icon class="icon">logout</mat-icon>
+      <p class="icon-link">Logout</p>
+    </a>
+  </ul>
+  </div>
+<!-- </mat-toolbar> -->
+</div>
+</nav>
